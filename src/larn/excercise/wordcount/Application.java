@@ -1,4 +1,4 @@
-package rackspace.excercise.wordcount;
+package larn.excercise.wordcount;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -43,7 +43,7 @@ public class Application {
 		List<Callable<CountResult>> tasks = collectProcessingTasks();
 		executeTasks(tasks);
 		LocalDateTime endTime = LocalDateTime.now();
-		System.out.println("Time in miliseconds: " + Duration.between(startTime, endTime).toMillis());
+		System.out.println("Time in milliseconds: " + Duration.between(startTime, endTime).toMillis());
 
 	}
 

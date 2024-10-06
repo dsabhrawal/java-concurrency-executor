@@ -1,4 +1,4 @@
-package rackspace.excercise.wordcount;
+package larn.excercise.wordcount;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.nio.file.Path;

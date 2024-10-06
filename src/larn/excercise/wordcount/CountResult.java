@@ -1,4 +1,4 @@
-package rackspace.excercise.wordcount;
+package larn.excercise.wordcount;
 import java.util.HashMap;
 import java.util.Map;
 
